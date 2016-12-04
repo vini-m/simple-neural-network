@@ -38,7 +38,7 @@ class NeuralNetwork():
         training_set_outputs,
         number_of_training_iterations
     ):
-        for iteration in xrange(number_of_training_iterations):
+        for iteration in range(number_of_training_iterations):
             """Pass the training set through our neural network
             (a single neuron).
             """
